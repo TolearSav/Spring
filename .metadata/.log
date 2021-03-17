@@ -1519,3 +1519,6 @@ org.eclipse.core.runtime.CoreException: Launch configuration BlogPessoalApplicat
 
 !ENTRY org.eclipse.m2e.logback.appender 4 0 2021-03-17 20:28:35.401
 !MESSAGE Unexpected URLConnection defaultUseCaches enabled
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2021-03-17 20:49:35.258
+!MESSAGE Unexpected URLConnection defaultUseCaches enabled
