@@ -1,4 +1,4 @@
-package com.generation.farmacia.model;
+package com.cultivar.armazemNatural.model;
 
 import java.util.Date;
 import java.util.List;
@@ -27,7 +27,11 @@ public class Categoria {
 	
 	@NotNull
 	@Size(min = 2, max = 255)
-	private String descricao;
+	private String nome;
+	
+	@NotNull
+	@Size(min = 2, max = 255)
+	private String imagem;
 	
 	@Temporal(TemporalType.TIMESTAMP)
 	private Date data = new java.sql.Date(System.currentTimeMillis());
@@ -44,12 +48,20 @@ public class Categoria {
 		this.id = id;
 	}
 
-	public String getDescricao() {
-		return descricao;
+	public String getNome() {
+		return nome;
 	}
 
-	public void setDescricao(String descricao) {
-		this.descricao = descricao;
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
+
+	public String getImagem() {
+		return imagem;
+	}
+
+	public void setImagem(String imagem) {
+		this.imagem = imagem;
 	}
 
 	public List<Produto> getProduto() {
@@ -68,4 +80,5 @@ public class Categoria {
 		this.data = data;
 	}
 	
+
 }
