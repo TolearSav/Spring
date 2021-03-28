@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="C:\Users\Usuario\Spring\collectibles\collectibles"/>
 			<item value="C:\Users\Usuario\Spring\armazemNatural"/>
 			<item value="C:\Users\Usuario\Spring\armazemNatural\armazemNatural"/>
 			<item value="C:\Users\Usuario\Spring\farmacia\farmacia"/>
