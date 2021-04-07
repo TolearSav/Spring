@@ -23,11 +23,20 @@ public class Produto {
 	private String tituloProduto;
 	
 	@NotNull
+	private String descricao;
+	
+	@NotNull
 	private float valor;
+	
+	@NotNull
+	private String marca;
 	
 	@NotNull
 	@Size(min = 1, max = 200)
 	private String urlImagem;
+	
+	@NotNull
+	private int qtdeEstoque;
 	
 	private boolean ativo;
 	
@@ -55,12 +64,37 @@ public class Produto {
 		this.tituloProduto = tituloProduto;
 	}
 
-	public double getValor() {
+	public String getDescricao() {
+		return descricao;
+	}
+
+	public void setDescricao(String descricao) {
+		this.descricao = descricao;
+	}
+
+
+	public float getValor() {
 		return valor;
 	}
 
 	public void setValor(float valor) {
 		this.valor = valor;
+	}
+
+	public String getMarca() {
+		return marca;
+	}
+
+	public void setMarca(String marca) {
+		this.marca = marca;
+	}
+
+	public int getQtdeEstoque() {
+		return qtdeEstoque;
+	}
+
+	public void setQtdeEstoque(int qtdeEstoque) {
+		this.qtdeEstoque = qtdeEstoque;
 	}
 
 	public String getUrlImagem() {
